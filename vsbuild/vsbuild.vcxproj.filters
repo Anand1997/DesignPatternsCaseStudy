@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\visitors\Evaluation_Visitor.cpp">
+      <Filter>visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\visitors\Print_Visitor.cpp">
+      <Filter>visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\visitors\Visitor.cpp">
+      <Filter>visitor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\getopt.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\Options.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\utils\Refcounter.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\trees\Expression_Tree.cpp">
+      <Filter>trees</Filter>
+    </ClCompile>
+    <ClCompile Include="..\states\Tree_Context.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\states\State.cpp">
+      <Filter>states</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iterators\Iterator.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\iterators\Iterator_Impl.cpp">
+      <Filter>Iterator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interpreters\Expr.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interpreters\Interpreter.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\interpreters\Interpreter_Impl.cpp">
+      <Filter>Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\Reactor.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\input\Event_Handler.cpp">
+      <Filter>input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Component_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Add_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Binary_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Divide_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Multiply_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Negate_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Subtract_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Composite_Unary_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\composites\Leaf_Node.cpp">
+      <Filter>Composit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\commands\User_Command.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\commands\User_Command_Factory.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\commands\User_Command_Factory_Impl.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+    <ClCompile Include="..\commands\User_Command_Impl.cpp">
+      <Filter>Command</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\visitors\Evaluation_Visitor.h">
+      <Filter>visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\visitors\Print_Visitor.h">
+      <Filter>visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\visitors\Visitor.h">
+      <Filter>visitor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\getopt.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\Options.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\utils\Refcounter.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\trees\Expression_Tree.h">
+      <Filter>trees</Filter>
+    </ClInclude>
+    <ClInclude Include="..\states\Tree_Context.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\states\State.h">
+      <Filter>states</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iterators\Iterator.h">
+      <Filter>Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\iterators\Iterator_Impl.h">
+      <Filter>Iterator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interpreters\Expr.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interpreters\Interpreter.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\interpreters\Interpreter_Impl.h">
+      <Filter>Interpreter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\input\Reactor.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\input\Event_Handler.h">
+      <Filter>input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Component_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Add_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Binary_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Divide_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Multiply_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Negate_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Subtract_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Composite_Unary_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\composites\Leaf_Node.h">
+      <Filter>Composit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commands\User_Command.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commands\User_Command_Factory.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commands\User_Command_Factory_Impl.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+    <ClInclude Include="..\commands\User_Command_Impl.h">
+      <Filter>Command</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="visitor">
+      <UniqueIdentifier>{66e7cb15-2941-4d3d-b92a-21ebb3ab58f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{79d021c6-5b93-43cf-a0ab-c5273ba2f351}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="trees">
+      <UniqueIdentifier>{fe2ce401-83dc-4baa-aff7-4cc9e30b6c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="states">
+      <UniqueIdentifier>{6bfb5ddc-0f64-4ea0-bac1-9745ad005f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterator">
+      <UniqueIdentifier>{aa33ee3a-0287-40c4-9494-f315d5643d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interpreter">
+      <UniqueIdentifier>{d243c2c3-43ba-4882-a85f-90c1d6360bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="input">
+      <UniqueIdentifier>{5a460bb6-52f2-4227-b327-ab1109431306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Composit">
+      <UniqueIdentifier>{a1c3b30f-f947-4872-a9d9-03c7a53f193e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Command">
+      <UniqueIdentifier>{4c563ca2-a273-4539-a94e-28f26be323f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
